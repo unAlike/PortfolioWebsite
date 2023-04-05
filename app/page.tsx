@@ -23,7 +23,7 @@ export default function Home() {
             <Link href="/news">Projects</Link>
           </tr>
           <tr>
-            <Link href="/contact">Games</Link>
+            <Link href="/contact">Game</Link>
           </tr>
 
         </table>
