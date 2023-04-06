@@ -7,5 +7,9 @@ import navBar from './navBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App />
+    <Routes>
+        <Route index element={<App />} />
+        
+
+    </Routes>
 );
