@@ -1,0 +1,68 @@
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 5%; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    color: #000000;
+    background-color: #292929; /* Black*/
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav:hover {
+    color: #1d0909;
+    width: 10%;
+  }
+  
+  .sidenav table{
+    display: grid;
+    height: fit-content;
+  }
+  
+  .sidenav td{
+    padding-bottom: 50px;
+    font-weight: bolder;
+    color: aliceblue;
+    height: fit-content;
+    font-size: large;
+    text-align: center;
+  }
+  
+  .sidenav td:hover {
+    height: fit-content;
+    cursor: pointer;
+  }
+  
+  .sidenav td:hover {
+    color: #363636;
+  }
+  
+  .main {
+    transition: margin-left .5s;
+    padding: 0px;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #363636;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    overflow: hidden;
+    overflow-y: hidden;
+    transition: margin-left .5s;
+    padding: 0;
+    height: 95%;
+    background-color: #363636;
+  }
+  
