@@ -1,0 +1,18 @@
+.Nav {
+  text-align: center;
+  float: left;
+  justify-content: left;
+}
+
+.nav-border{
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  width: 6vw;
+  background-color: rgb(41, 41, 41);
+}
+
+.Test-link {
+  color: #61dafb;
+}

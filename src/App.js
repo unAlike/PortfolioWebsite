@@ -1,31 +1,13 @@
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
+import Nav from './Nav';
 
 function App() {
-	return (
-		<div>
-			<nav class="sidenav">
-        <table>
-          <td>
-            Home
-          </td>
-          <td>
-            Projects
-          </td>
-          <td>
-            Contact
-          </td>
-        </table>
-			</nav>
-      <main className='main'>
-        <div className='main'>
-          <p>
-            Hello
-          </p>
-        </div>
-      </main>
+  return (
+    <div className="App">
+      <Nav/>
     </div>
-	)
+  );
 }
 
-export default App
+export default App;

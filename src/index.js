@@ -2,14 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import navBar from './navBar';
-
+import Test from './Nav';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Routes>
-        <Route index element={<App />} />
-        
-
-    </Routes>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
+
