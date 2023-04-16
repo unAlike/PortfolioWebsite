@@ -1,0 +1,93 @@
+.Projects{
+    align-items: center;
+    vertical-align: top;
+    display: flex;
+    text-align: center;
+    flex: content;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0px;
+    padding-bottom: 10vh;
+    float: right;
+}
+
+.item {
+    height: 100vh;
+}
+
+.content-panel{
+    display: flex;
+    width: 90vw;
+    flex: none;
+    height: 100vh;
+    -ms-flex-align: stretch;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: inherit;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.content-box {
+
+    height: 80%;
+    width: auto;
+    padding: 20px;
+    flex-grow: 1;
+    margin: 10px;
+
+    transition: .2s ease;
+    shape-outside: margin-box;
+}
+
+.projects-box {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 5px;
+    border-radius: 10px;
+    width: 32%;
+    height: 40%;
+    border: 3px solid #410325;
+    transition: .2s ease;
+    background-image: url("../icons/image.png");
+}
+.project:hover {
+    transform: scale(1.05);
+    border: 3px solid #5f0520;
+}
+
+.project p {
+    color:azure;
+    background-color: rgba(124, 124, 124, 0.534);
+    width: 100cap;
+    height: auto;
+    padding-bottom: 5px;
+    margin: 0;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.project:hover p {
+    font-weight: bold;
+    background-color: rgba(124, 124, 124, 0.87);
+}
+
+.projects-header{
+    text-align: center;
+    text-shadow: rgb(124, 33, 63) -5px -5px 2px;
+    background: -webkit-linear-gradient(#000000,#490000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-play-state: running;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    scroll-snap-align: start;
+    font-size: 90px;
+}
+
