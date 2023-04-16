@@ -47,35 +47,104 @@
     flex-wrap: wrap;
 }
 
+
+#prop {
+    background-image: url("../Pictures/WaveProp.png");
+    background-size: cover;
+}
+
+#bugby {
+    background-image: url("../Pictures/Bugby.png");
+    background-size: cover;
+}
+
+#tdzs {
+    background-image: url("../Pictures/tdzs.png");
+    background-size: cover;
+}
+
+#cvc {
+    background-image: url("../Pictures/cvc.png");
+}
+#cvc:hover{
+    background-image: url("../Pictures/cvc.gif");
+}
+
+#dm {
+    background-image: url("../Pictures/DreamMender.png");
+    background-size: cover;
+}
+
+#pool {
+    background-image: url("../Pictures/Pool.png");
+    background-size: cover;
+}
+
 .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 5px;
     border-radius: 10px;
     width: 32%;
     height: 40%;
     border: 3px solid #410325;
     transition: .2s ease;
-    background-image: url("../icons/image.png");
+    font-weight: bold;
+    background-image: url("../Pictures/image.png");
 }
 .project:hover {
     transform: scale(1.05);
     border: 3px solid #5f0520;
+    font-weight: bolder;
+}
+.project:hover p{
+    background-color: rgba(240, 255, 255, 0.681);
+}
+.project:hover div{
+    background-color: rgba(240, 255, 255, 0.681);
 }
 
-.project p {
-    color:azure;
+.top {
+    color:rgb(0, 0, 0);
     background-color: rgba(124, 124, 124, 0.534);
-    width: 100cap;
-    height: auto;
+    width: 100%;
+    height: 12%;
     padding-bottom: 5px;
     margin: 0;
+    font-size: 30px;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
 }
 
-.project:hover p {
-    font-weight: bold;
-    background-color: rgba(124, 124, 124, 0.87);
+.logo:hover{
+    scale: 1.2;
 }
+
+.bottom {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    position: sticky;
+    bottom: 0px;
+    background-color: rgba(124, 124, 124, 0.534);
+    width: 100%;
+    height: 10%;
+    max-height: 10%;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-indent: 10px;
+    font-size: 20px;
+}
+.bottom div{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+
+
 
 .projects-header{
     text-align: center;
@@ -91,3 +160,9 @@
     font-size: 90px;
 }
 
+.mc{
+    position: fixed;
+    height: 10px;
+    size: 40px;
+    font-stretch: expanded;
+}
