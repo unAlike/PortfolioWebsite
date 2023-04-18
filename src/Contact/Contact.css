@@ -2,7 +2,7 @@
     align-items: center;
     display: flex;
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
     height: 100vh;
     padding: 0px;
     width: 100vw;;
@@ -32,3 +32,26 @@
     margin: 0;
 }
 
+
+
+#info {
+    -ms-flex-align: start;
+    background-color: aliceblue;
+    width: 20vw;
+    height: 80vh;
+}
+
+#sendemail {
+    -ms-flex-align: start;
+    background-color: aliceblue;
+    width: 20vw;
+    height: 80vh;
+}
+
+.widg {
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+}

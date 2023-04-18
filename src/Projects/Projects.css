@@ -9,6 +9,7 @@
     padding: 0px;
     padding-bottom: 10vh;
     float: right;
+    margin-left: 8vh;
 }
 
 .item {
@@ -29,13 +30,11 @@
 }
 
 .content-box {
-
     height: 80%;
     width: auto;
     padding: 20px;
     flex-grow: 1;
     margin: 10px;
-
     transition: .2s ease;
     shape-outside: margin-box;
 }
