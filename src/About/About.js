@@ -23,10 +23,10 @@ function About() {
             </div>
             <div class='content-flex'>
               <span id='bio'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Accumsan in nisl nisi scelerisque eu ultrices.
-                Tellus in metus vulputate eu scelerisque felis. Gravida dictum fusce ut placerat orci. 
-                In nibh mauris cursus mattis molestie a iaculis at erat. Dui vivamus arcu felis bibendum ut tristique et.
+                Throughout all of my personal projects, I would think of the idea, code it, and then pick apart all of the things about my code that I felt
+                could have been done better. After doing this thousands of times, I have fine tuned my ability to code more efficently on the first try.
+                Moving forward in my career, I hope to continue to learn all of the Industry standards as well as explore intergrating new technology
+                into existing systems. The world is constantly changing and I always want to stay up to date with the newest and most effective techniques.
               </span>
               <img src={pfp} id='pfp'/>
             </div>
