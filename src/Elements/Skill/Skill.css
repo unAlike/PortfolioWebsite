@@ -1,0 +1,37 @@
+.skill-box {
+    display: flex;
+    width: 20%;
+    text-align: center;
+    flex-grow: 1;
+    align-self: center;
+    margin: 5px;
+    padding: 0px;
+    transition: .2s ease;
+    height: 70px;
+}
+
+.skill-box:hover{
+    transform: scale(1.10);
+    z-index: 1;
+}
+
+.skill-content {
+    text-align: center;
+    font-size: 25px;
+    flex: content;
+    border: 3px black solid;
+    border-radius: 10px;
+    background-color: rgb(98, 27, 42);
+    transition: .2s ease;
+    height: 100%;
+    padding: 0px;
+    overflow: hidden;
+}
+.skill-content:hover{
+    height: 200px;
+}
+
+.year {
+    text-align: left;
+    padding: 10px;
+}

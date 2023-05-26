@@ -22,7 +22,7 @@
     flex: none;
     height: 100vh;
     -ms-flex-align: stretch;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     flex-grow: inherit;
     justify-content: space-around;

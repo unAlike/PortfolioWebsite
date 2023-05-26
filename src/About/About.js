@@ -1,6 +1,7 @@
 import './About.css';
 import React from 'react'
 import pfp from '../Pictures/pfp.jpg'
+import Skill from '../Elements/Skill/Skill';
 
 function About() {
   return (
@@ -34,16 +35,18 @@ function About() {
           <div className='acontent-box'>
           {/* SKILLS */}
           <span class='content-header'>Skills</span>
-          <div class='content-flex'>
-            <img src={pfp} id='pfp'/>
-              <span id='bio'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Accumsan in nisl nisi scelerisque eu ultrices.
-                Tellus in metus vulputate eu scelerisque felis. Gravida dictum fusce ut placerat orci. 
-                In nibh mauris cursus mattis molestie a iaculis at erat. Dui vivamus arcu felis bibendum ut tristique et. 
-                Id volutpat lacus laoreet non curabitur gravida arcu ac tortor. A iaculis at erat pellentesque. 
-                
-              </span>
+            <div class='content-flex'>
+              <div id='skills'>
+                <Skill skill='JavaScript' years='7'/>
+                <Skill skill='Java' years='7'/>
+                <Skill skill='C++' years='4'/>
+                <Skill skill='C#' years='5'/>
+                <Skill skill='Python' years='4'/>
+                <Skill skill='HTML' years='6'/>
+                <Skill skill='CSS' years='6'/>
+                <Skill skill='SQL' years='3'/>
+              </div>
+              
             </div>
           </div>
         </div>
