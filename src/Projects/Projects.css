@@ -51,9 +51,17 @@
     background-image: url("../Pictures/WaveProp.png");
     background-size: cover;
 }
+#prop:hover{
+    background-image: url("../Pictures/prop.gif");
+    background-size: cover;
+}
 
 #bugby {
     background-image: url("../Pictures/Bugby.png");
+    background-size: cover;
+}
+#bugby:hover {
+    background-image: url("../Pictures/bugby.gif");
     background-size: cover;
 }
 

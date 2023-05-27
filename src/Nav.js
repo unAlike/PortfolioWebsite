@@ -14,8 +14,12 @@ function Nav() {
               <li id='h'><a href='#home'>Home</a></li>
               <li id='a'><a href='#abou'>About Me</a></li>
               <li id='p'><a href='#proj'>Projects</a></li>
-              {/* <li id='c'><a href='#con'>Contact</a></li> */}
             </ul>
+            <hr id='h'/>
+            <ul>
+              <li id='r'><a href='./UngerleiderResume.pdf' download>Resume</a></li>
+            </ul>
+          
           </div>
           <div className='social-icons'>
             <span id='phone'>+1(414)378-2710</span>
